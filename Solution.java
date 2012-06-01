@@ -3,7 +3,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.awt.Point;
 import java.awt.Rectangle;
-
+//This is an attempted solution to the 'empire destruction' twitch.tv interviewstreet challenge
+//essentially, the problem is, given a set of coordinates defining a number of rectangles, and given a point
+//find the number of rectangles covering that point. The main problem is searching the rectangles efficiently enough
+//to get the solution in the time-limit.
 public class Solution {
 
     /**
